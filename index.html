@@ -11,7 +11,7 @@
     <div :style="{background: color}" id="app">
       <div class="container">
         <h1>Type Any Color Name or Hex Value</h1>
-        <input type="text" name=" " v-model="color" id="" />
+        <input type="text" name=" " :style="{background: color, border: none, outline: none}" v-model="color" id="" />
       </div>
     </div>
     <script src="./js/vue.min.js"></script>
